@@ -4,7 +4,7 @@ function Sobre() {
       <div className="bg-green-600 min-h-screen py-10 px-10">
         <div className="bg-white px-5 py-5 rounded-lg flex flex-col md:flex-row">
           {/* lado esquerdo */}
-          <div className="md:w-1/2 md:pr-5">
+          <div className="md:w-1/2 md:pr-5 md:mt-5">
             <p className="text-black text-3xl text-center font-bold">
               Sobre o projeto:
             </p>
@@ -19,7 +19,7 @@ function Sobre() {
           </div>
 
           {/* lado direito */}
-          <div className="md:w-1/2 md:pl-5 flex flex-col items-center">
+          <div className="md:w-1/2 md:py-5 mt-6 md:mt-0 flex flex-col items-center">
             <img
               src="/images/img_geral.jpg"
               alt="foto da inauguração"
