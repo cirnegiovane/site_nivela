@@ -10,10 +10,11 @@ function Sobre() {
             </p>
             <p className="text-black text-justify mt-5 text-base leading-relaxed">
               O Nivela UERJ é um projeto de extensão da Universidade do Estado
-              do Rio de Janeiro (UERJ) que visa auxiliar estudantes do ensino
-              médio a se prepararem para o vestibular da UERJ e outros exames de
-              admissão. O projeto oferece uma variedade de recursos, incluindo
-              aulas, materiais didáticos e um banco de questões.
+              do Rio de Janeiro (UERJ) que visa auxiliar estudantes calouros e
+              veteranos na disciplina de Cálculo I. O objetivo principal do
+              projeto é proporcionar um ambiente de aprendizado colaborativo,
+              onde os alunos possam fortalecer seus conhecimentos matemáticos e
+              desenvolver habilidades essenciais para o sucesso acadêmico.
             </p>
           </div>
 
