@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar.jsx";
 import Institucional from "./pages/Institucional.jsx";
 import Atividades from "./pages/Atividades.jsx";
 import Material from "./pages/Material.jsx";
+import Videoaulas from "./pages/Videoaulas.jsx";
+import Banco from "./pages/Banco.jsx";
 import Contato from "./pages/Contato.jsx";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/institucional" element={<Institucional />} />
           <Route path="/atividades" element={<Atividades />} />
           <Route path="/material" element={<Material />} />
+          <Route path="/banco" element={<Banco />} />
+          <Route path="/videoaulas" element={<Videoaulas />} />
           <Route path="/contato" element={<Contato />} />
         </Routes>
       </main>

@@ -5,6 +5,8 @@ const links = [
   { to: "/institucional", label: "Institucional" },
   { to: "/atividades", label: "Atividades" },
   { to: "/material", label: "Material didático" },
+  { to: "/banco", label: "Banco de Questões" },
+  { to: "/videoaulas", label: "Videoaulas" },
   { to: "/contato", label: "Contato" },
 ];
 
