@@ -22,7 +22,7 @@ function Navbar() {
   }, []);
 
   const baseLink =
-    "block px-3 py-2 text-gray-800 hover:text-blue-600 transition-colors";
+    "block px-3 py-2 text-gray-800 hover:text-green-600 transition-colors";
   const activeLink = "text-blue-600 font-semibold";
 
   return (
