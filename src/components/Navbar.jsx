@@ -58,7 +58,7 @@ function Navbar() {
             aria-controls="mobile-menu"
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="md:hidden flex flex-col items-center justify-center rounded-md p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="md:hidden flex flex-col items-center justify-center rounded-md p-2 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-green-600"
           >
             <span className="block h-0.5 w-6 bg-gray-900" />
             <span className="block h-0.5 w-6 bg-gray-900 mt-1" />

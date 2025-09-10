@@ -2,10 +2,10 @@ function Listas() {
   return (
     <>
       <div className="bg-green-600 min-h-screen py-10 px-10 flex flex-col gap-6 text-center">
-        <h1 className="text-3xl font-bold mt-[70px] text-center text-white">
+        <h1 className="text-3xl font-bold mt-[35px] text-center text-white">
           Listas de Exercícios
         </h1>
-        <div className="grid grid-cols-1 mt-[70px] md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 mt-[35px] md:grid-cols-3 gap-4">
           {/*primeira linha*/}
           <a
             href="/listas/NIVELAUERJ___Cálculo_Zero__Lista_1__Expressões_numéricas_.pdf"
