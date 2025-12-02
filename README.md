@@ -1,12 +1,22 @@
-<<<<<<< HEAD
-# site_nivela
-=======
-# React + Vite
+# Nivela UERJ: Projeto de Extensão
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição do Projeto
 
-Currently, two official plugins are available:
+O **Nivela UERJ** é um projeto de extensão da Universidade do Estado do Rio de Janeiro (UERJ) que visa apoiar e nivelar estudantes, calouros e veteranos, para a disciplina de Cálculo I.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> e74d99c (commit inicial: apenas navbar e home)
+O site fornece acesso a materiais didáticos essenciais, como listas de exercícios, para fortalecer os conhecimentos matemáticos básicos (o "Cálculo Zero").
+
+## Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando a seguinte stack de tecnologias:
+
+- **Frontend:** React, JavaScript
+- **Ferramenta de Build:** Vite
+- **Estilização:** Tailwind CSS
+
+## Créditos
+
+Este projeto foi desenvolvido por
+
+- **Aluno:** Giovane Cirne
+- **Coordenador:** Mauro Nigro
