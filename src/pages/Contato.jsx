@@ -24,7 +24,7 @@ function Contato() {
               {/* Card 1: Coordenação */}
               <a
                 href="https://www.linkedin.com/in/mauronigro/"
-                className="bg-nivela-green-pale/30 p-6 rounded-[2rem] border-2 border-nivela-green-light/20 flex flex-col items-center justify-center hover:scale-[1.02] transition-transform block"
+                className="bg-nivela-green-pale/30 p-6 rounded-[2rem] border-2 border-nivela-green-light/20 flex flex-col items-center justify-center hover:bg-nivela-green-pale hover:scale-[1.02] transition-transform block"
               >
                 <span className="text-3xl mb-3">🎓</span>
                 <h3 className="font-forum text-xl text-nivela-green-dark leading-tight mb-2">
