@@ -22,8 +22,8 @@ function Navbar() {
   }, []);
 
   const baseLink =
-    "block px-3 py-2 text-gray-800 hover:text-green-600 transition-colors";
-  const activeLink = "text-blue-600 font-semibold";
+    "block px-3 py-2 text-gray-800 hover:text-nivela-orange-vibrant transition-colors";
+  const activeLink = "text-nivela-green-vibrant font-semibold";
 
   return (
     <>

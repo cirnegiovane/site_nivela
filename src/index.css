@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme {
+  /* Cores Nivela - Verdes */
+  --color-nivela-green-dark: #27722e;
+  --color-nivela-green-base: #23922d;
+  --color-nivela-green-vibrant: #3db649;
+  --color-nivela-green-light: #8ad192;
+  --color-nivela-green-pale: #caffd0;
+
+  /* Cores Nivela - Laranjas */
+  --color-nivela-orange-dark: #ed7508;
+  --color-nivela-orange-vibrant: #ff8d26;
+  --color-nivela-orange-mid: #ffa656;
+  --color-nivela-orange-light: #ffba7c;
+  --color-nivela-orange-pale: #ffdfc3;
+
+  /* Tipografia */
+  --font-forum: "Forum", serif;
+  --font-century: "Century Gothic", "AppleGothic", sans-serif;
+}
+
+:root {
+  font-family: var(--font-century);
+}
+
+h1,
+h2,
+h3,
+.font-logo {
+  font-family: var(--font-forum);
+}
