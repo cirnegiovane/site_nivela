@@ -1,9 +1,23 @@
 import { Link } from "react-router-dom";
+import {Camera, GraduationCap, Mail} from "lucide-react"
+
+
 
 function Contato() {
   const professorCoord = "Mauro Nigro Alves Junior";
   const email = "nivelauerj@gmail.com";
   const instagram = "@nivelauerj";
+  // Usage
+  const cam_icon = () => {
+    return <Camera size={30} color="grey" strokeWidth={1} />;
+  };
+  const mail_icon = () => {
+    return <Mail size={30} color="grey" strokeWidth={1} />;
+  };
+  const cap_icon = () => {
+    return <GraduationCap size={30} color="grey" strokeWidth={1} />;
+  };
+
 
   return (
     <main className="min-h-screen bg-nivela-orange-pale relative overflow-hidden py-12 px-6 flex items-center justify-center">
@@ -16,8 +30,8 @@ function Contato() {
             <h1 className="font-forum text-5xl text-nivela-orange-dark mb-4">
               Contato
             </h1>
-            <p className="font-century text-gray-600 mb-10 text-lg italic">
-              "Acessibilidade e diálogo para construir sua base matemática."
+            <p className="font-century text-gray-600 mb-10 text-lg">
+              Saiba onde nos encontrar!
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
@@ -26,7 +40,7 @@ function Contato() {
                 href="https://www.linkedin.com/in/mauronigro/"
                 className="bg-nivela-green-pale/30 p-6 rounded-[2rem] border-2 border-nivela-green-light/20 flex flex-col items-center justify-center hover:bg-nivela-green-pale hover:scale-[1.02] transition-transform block"
               >
-                <span className="text-3xl mb-3">🎓</span>
+                <span className="text-3xl mb-3">{cap_icon()}</span>
                 <h3 className="font-forum text-xl text-nivela-green-dark leading-tight mb-2">
                   Coordenação
                 </h3>
@@ -40,13 +54,14 @@ function Contato() {
                 href={`mailto:${email}`}
                 className="bg-nivela-orange-pale/40 p-6 rounded-[2rem] border-2 border-nivela-orange-light/20 flex flex-col items-center justify-center hover:bg-nivela-orange-pale hover:scale-[1.02] transition-all group"
               >
-                <span className="text-3xl mb-3 group-hover:scale-110 transition-transform">
-                  📧
-                </span>
+                
+                {<span className="text-3xl mb-3 group-hover:scale-110 transition-transform">
+                  {mail_icon()}
+                </span>}
                 <h3 className="font-forum text-xl text-nivela-orange-dark mb-2">
                   E-mail
                 </h3>
-                <p className="font-century text-sm text-nivela-orange-dark underline font-bold break-all">
+                <p className="font-century text-sm text-nivela-orange-dark font-bold break-all">
                   {email}
                 </p>
               </a>
@@ -58,9 +73,10 @@ function Contato() {
                 rel="noopener noreferrer"
                 className="bg-nivela-green-pale/30 p-6 rounded-[2rem] border-2 border-nivela-green-light/20 flex flex-col items-center justify-center hover:bg-nivela-green-pale hover:scale-[1.02] transition-all group"
               >
-                <span className="text-3xl mb-3 group-hover:rotate-12 transition-transform">
-                  📸
-                </span>
+                
+                {<span className="text-3xl mb-3 group-hover:rotate-12 transition-transform">
+                  {cam_icon()}
+                </span>}
                 <h3 className="font-forum text-xl text-nivela-green-dark mb-2">
                   Instagram
                 </h3>

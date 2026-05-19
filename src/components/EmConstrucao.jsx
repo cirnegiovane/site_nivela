@@ -1,6 +1,11 @@
+import { Settings } from "lucide-react";
 import { Link } from "react-router-dom";
 
+
 function EmConstrucao({ titulo }) {
+  const settings_icon = () => {
+    return <Settings size={50} color="grey" strokeWidth={1} />;
+  };
   return (
     <div className="min-h-[70vh] flex items-center justify-center px-6 py-20 relative overflow-hidden">
       
@@ -12,7 +17,7 @@ function EmConstrucao({ titulo }) {
         
         <div className="relative inline-block mb-8">
           <div className="w-32 h-32 bg-nivela-green-pale rounded-[2rem] flex items-center justify-center text-6xl shadow-inner animate-bounce">
-            ⚙️
+            {settings_icon()}
           </div>
           <div className="absolute -bottom-2 -right-2 w-12 h-12 bg-nivela-orange-vibrant rounded-full flex items-center justify-center text-white text-xl shadow-lg border-4 border-white">
             +

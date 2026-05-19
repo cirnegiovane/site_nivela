@@ -1,3 +1,5 @@
+import { Download } from "lucide-react";
+
 const dadosListas = [
   {
     id: 1,
@@ -50,6 +52,9 @@ const dadosListas = [
 ];
 
 function Listas() {
+  const download_icon = () => {
+    return <Download size={30} color="grey" strokeWidth={1} />;
+  };
   return (
     <div className="max-w-7xl mx-auto py-12 px-6">
       <h2 className="font-forum text-4xl md:text-5xl text-nivela-green-dark text-center mb-12">
@@ -83,7 +88,7 @@ function Listas() {
               </strong>
 
               <div className="mt-6 bg-white/50 px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2">
-                <span className="text-lg">📥</span> Baixar PDF
+                <span className="text-lg">{download_icon()}</span> Baixar PDF
               </div>
             </div>
           </a>

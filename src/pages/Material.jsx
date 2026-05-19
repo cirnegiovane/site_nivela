@@ -8,10 +8,13 @@ function Material() {
 
       <section className="relative z-10 py-10">
         <div className="max-w-4xl mx-auto text-center px-6 mb-10">
-          <p className="font-century text-nivela-green-dark/70 text-lg md:text-xl italic">
-            "O sucesso é a soma de pequenos esforços repetidos todos os dias."
-          </p>
-        </div>
+  <blockquote className="font-century text-nivela-green-dark/70 text-lg md:text-xl italic mb-3">
+    “Dividir cada uma das dificuldades em tantas partes quantas forem possíveis e necessárias para melhor resolvê-las.”
+  </blockquote>
+  <cite className="block font-century text-nivela-green-dark/50 text-sm md:text-base not-italic">
+    — René Descartes
+  </cite>
+</div>
 
         <Listas />
       </section>
