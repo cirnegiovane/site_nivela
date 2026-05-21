@@ -1,4 +1,11 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "AlexandriaSignature";
+  src: url("/fonts/Alexandria Signature.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @theme {
   /* Cores Nivela - Verdes */
@@ -18,6 +25,7 @@
   /* Tipografia */
   --font-forum: "Forum", serif;
   --font-century: "Century Gothic", "AppleGothic", sans-serif;
+  --font-alexandria-signature: "AlexandriaSignature", cursive;
 }
 
 :root {
