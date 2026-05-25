@@ -57,7 +57,7 @@ function Listas() {
   };
   return (
     <div className="max-w-7xl mx-auto py-12 px-6">
-      <h2 className="font-forum text-4xl md:text-5xl text-nivela-green-dark text-center mb-12">
+      <h2 className="font-century text-4xl md:text-5xl text-nivela-green-dark text-center mb-12">
         Cálculo Zero: Listas de Exercícios
       </h2>
 
@@ -80,14 +80,14 @@ function Listas() {
               }
             `}
             >
-              <span className="font-forum text-xl text-gray-500 mb-2">
+              <span className="font-century text-xl text-gray-500 mb-2">
                 Lista {lista.id}
               </span>
               <strong className="font-century text-xl text-nivela-green-dark leading-tight group-hover:text-nivela-orange-dark transition-colors">
                 {lista.titulo}
               </strong>
 
-              <div className="mt-6 bg-white/50 px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2">
+              <div className="font-century mt-6 bg-white/50 px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2">
                 <span className="text-lg">{download_icon()}</span> Baixar PDF
               </div>
             </div>

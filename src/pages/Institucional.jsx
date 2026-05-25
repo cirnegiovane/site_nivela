@@ -1,7 +1,7 @@
 function Institucional() {
   return (
     <div className="max-w-4xl mx-auto py-16 px-5 font-century text-nivela-green-dark">
-      <h1 className="text-5xl text-nivela-orange-dark mb-10 text-center font-forum">
+      <h1 className="text-5xl text-nivela-orange-dark mb-10 text-center font-century">
         Sobre o Nivela UERJ
       </h1>
 
@@ -24,13 +24,13 @@ function Institucional() {
 
         <div className="grid md:grid-cols-2 gap-8 py-8">
           <div className="bg-white border-2 border-nivela-orange-pale p-6 rounded-2xl shadow-sm">
-            <h4 className="font-forum text-2xl text-nivela-orange-dark mb-3">
+            <h4 className="font-century text-2xl text-nivela-orange-dark mb-3">
               Dinâmico
             </h4>
             <p>Conteúdos fluidos que acompanham o ritmo dos estudantes hoje.</p>
           </div>
           <div className="bg-white border-2 border-nivela-green-pale p-6 rounded-2xl shadow-sm">
-            <h4 className="font-forum text-2xl text-nivela-green-base mb-3">
+            <h4 className="font-century text-2xl text-nivela-green-base mb-3">
               Acolhedor
             </h4>
             <p>
@@ -39,9 +39,7 @@ function Institucional() {
           </div>
         </div>
 
-        <p className="text-center font-forum text-2xl mt-12 bg-nivela-orange-pale py-4 rounded-full">
-          Desenvolvido por Giovane Cirne | Coordenação: Mauro Nigro
-        </p>
+        
       </div>
     </div>
   );
